@@ -5,6 +5,8 @@ This schema defines structures for the domain ("where do values sit in space/tim
 
 For application-specific metadata, only an envelope is provided under which "any" data can be agglomerated. It is recommended for applications to define their own, independent "compartments" having their own schema. Example compartments include: INSPIRE, FAIRiCUBE, rasdaman. Having an open-ended list of such compartments allows applications to only look into "their" compartment and ignore all others, which greatly enhances modularity.
 
+In order to enable reuse, such extensions must be documented. This requires the provision of a Schema file, together with a description of the meaning of the types provided by this schema.
+
 ## FAIRiCUBE Relevant Schemas
 
 In FAIRiCUBE, the following non-standard compartment schemas are relevant:
