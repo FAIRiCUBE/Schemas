@@ -6,8 +6,7 @@
 	</annotation>
 	<element name="fairicubeMetadata" type="gml:ReferenceType">
 		<annotation>
-			<documentation>-- Definition --
-Monitored environmental medium.</documentation>
+			<documentation>Link to dataset metadata.</documentation>
 		</annotation>
 	</element>
 </schema>
